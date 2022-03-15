@@ -1,0 +1,138 @@
+﻿body {
+    left: 7em;
+    position: relative;
+    background-color: #3E1B4A;
+}
+.menu {
+    height: 100%; 
+    width: 100px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #3E1B4A; /* PURPLE*/
+    filter: brightness(95%);
+    
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+    box-shadow: 12px 0 8px -7px rgb(0 0 0);
+}
+
+.menu > img
+{
+    width:4em;
+    height:auto;
+    left: 1em;
+    position:relative;
+}
+
+    .menu a {
+        padding: 1em;
+        right: 2em;
+        position: relative;
+        text-decoration: none;
+        font-size: 18px;
+        color: #E27D60;
+        display: block;
+        transition: 0.3s;
+        filter:brightness(%100);
+    }
+.menu a:hover {
+    color: white;
+    font-size:20px;
+}
+.sum_container {
+    display:grid;
+   
+    word-wrap:break-word;
+    grid-template-columns:70%, 30%;
+    top: 1em;
+    position:relative;
+    
+
+}
+
+.pic_container {
+    
+    left: 30em;
+    position:relative;
+}
+    .pic_container > img {
+        max-height:auto;
+        max-width: 100%;
+       
+        object-fit:cover;
+      
+    }
+
+.text_container {
+    
+    display:grid;
+    grid-template-columns: 50% , 50%;
+    overflow-wrap:break-word;
+}
+.master_container {
+    border: 2px solid black;
+    display: block;
+    background-color: snow;
+    word-wrap: break-word;
+    border-right: 40px;
+    overflow-x: hidden;
+    position:fixed;
+    top: 2em;
+}
+
+.container {
+    display: block;
+    box-shadow: 0 8px 50px rgba(0 0 0.4);
+    background-color: #3E1B4A;
+    max-width: 30%;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    top: 30em;
+    
+}
+
+span.title {
+    color:red;
+    font-family:'Ink Free';
+    font-size:32px;
+    position:fixed;
+    display:block;
+}
+
+.profile >img
+{
+    float:left;
+    left: 5em;
+    top: 2em;
+    margin-bottom : 5px;
+    position:relative;
+
+}
+
+.intro > p {
+    color:white;
+    bottom: 1em;
+    position:relative;
+}
+
+.card_container {
+    width: 250px;
+    height: 250px;
+    position:relative;
+    display:flex;
+    justify-content:space-between;
+    background-color:aqua;
+
+}
+
+    .card_container .cards {
+        position:relative;
+        
+    }
+        .card_container .cards .face1 {
+            width: 30px;
+        }
